@@ -6,8 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>form</title>
     <style>
+        form{
+            border: 2px solid black;
+            padding:10px;
+        }
         h1{
             text-align: center;
+            border: 2px solid black;
         }
         label{
             display: block;
@@ -16,10 +21,13 @@
         #reset{
             margin-top: 5px;
         }
+        legend{
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to Jamal ar Ma Pitha Ghor</h1>
+    <h1>Welcome to Shakil ar Ma Pitha Ghor</h1>
     <form action="">
         <label for="name">Name
             <input type="text" id="name" placeholder="Name">
@@ -55,7 +63,7 @@
             <input type="checkbox" name="bortha" id="alo">moric
         </label>
     </fieldset>
-    <fieldset>
+    <fieldset id="one">
         <legend>Feedback</legend>
         <label for="form">
             <textarea name="feedback" id="" cols="93" rows="5"></textarea>
